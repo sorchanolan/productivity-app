@@ -3,12 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bit/bit.react-demo-app.button": "file:./components/button",
+    "@bit/bit.react-demo-app.h1": "file:./components/h1",
+    "@bit/bit.react-demo-app.list": "file:./components/list",
+    "@bit/bit.react-demo-app.removable-list-item": "file:./components/removable-list-item",
+    "@bit/bit.react-demo-app.text-input": "file:./components/text-input",
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.1"
+    "react-scripts": "3.3.0",
+    "react-transition-group": "1.x",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
